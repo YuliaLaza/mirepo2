@@ -122,6 +122,7 @@ var totalPay = totPr + iva;
 return totalPay;
 };
 
+// boton 
 
 var handleButtonClick = () => document.getElementById("subtotal").value = totalPrice(); 
   document.getElementById("button").addEventListener("click", handleButtonClick);
