@@ -1,0 +1,38 @@
+h2 {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px; /*o es mejor hacerlo asi:padding: 30px 0px 30px 0px; */
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hotel-body {
+    padding: 32px;
+    border: 1px solid #dcdcdc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Hotel-description {
+    width: 200px;
+    font-size: 16px;
+    display: inline;/* No se realmente para qué se pone esto*/
+}
+
+.hotel-1 {
+    text-transform: uppercase;
+    font-weight: bold; /* se pone desde css el negrita o desde html como strong*/
+    font-size: 20px;
+}
+
+.Telefono{
+    font-size: 20px;
+}
+
+input[type = "radio"]{ display:none;}
+label{ color:grey;}
+
