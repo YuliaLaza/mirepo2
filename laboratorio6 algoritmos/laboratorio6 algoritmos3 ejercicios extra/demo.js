@@ -78,7 +78,7 @@
 //     name: "Julia"
 // }
 
-//     var addId = () => person.id = null;
+//     var addId = (obj) => obj.id = null;
 
 // addId();
 // console.log(person);
@@ -120,11 +120,12 @@
 // function num(number) {
 //     if (number > 0 && number !== 0) {
 //         return number + " es positivo";
-//     } else {
+//     } else if (number < 0 && number !== 0) {
 //     return number + " es negativo";
-
-// }}
-// console.log(num(- 9));
+//     } else {
+//         return number 
+//     }};
+// console.log(num(0));
 
 //---------------------------------------------------------------------------------------------------
 
@@ -350,7 +351,7 @@
 // Implementa una función que dado un array, intercambie el primer elemento por el último. Muestra por consola el
 // resultado.
 
-//  var array = [1, 2, 3];
+//   var array = [1, 2, 3];
 
 //  function changeElements(arr) {
 //      var primero = arr.pop();
@@ -375,7 +376,7 @@
 
 // function showText(number, string) {
 
-//     for (var i = 1; i <= number; i++) {
+//     for (var i = 0; i < number; i++) {
 //         console.log(string);
 //     }
 
@@ -457,15 +458,12 @@
 // function caracter(string, caract) {
 // var apariciones = 0;
 // for(var i = 0; i < string.length; i++) {
-//     if(caract === string[i]) {
-//         apariciones = apariciones + 1;
-//     } else {
-//         apariciones = apariciones + 0;
-//     }
-// } console.log(apariciones);
-// return apariciones;
+//     if(caract === string[i]) apariciones++
+        
+    
+// } return apariciones;
 // } 
-//     caracter("perro", "r")
+//     console.log(caracter("perro", "r"));
 
 
 //---------------------------------------------------------------------------------------------------
@@ -521,7 +519,7 @@
 //     } else { 
 //         contadorNoMenores = contadorNoMenores + 1;
 // }
-// }console.log("Numeros menos que " + number + " - " + contadorMenores);
+// }console.log("Numeros menores que " + number + " - " + contadorMenores);
 // console.log("Numero no menores que " + number + " - " + contadorNoMenores);
 // return elementosMenores;
 
